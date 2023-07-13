@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@300;400;700 & display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family:'Roboto', sans-serif;
+    padding: 4px;
+    margin: 10px 4px 10px 4px;
+}
+
+.contenedor { 
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.hero {
+    width: 100%;
+    min-height: 100vh;  
+}
+
+.nav-hero {
+    color: #b9340b;
+    height: 180px;
+    border-bottom: 1px solid #cea45c;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.links {
+    display: inline-block;
+    color: #b9340b;;
+    text-decoration: none;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.container-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    align-content: center;
+    padding-top: 60px;
+    font-weight: 400;
+    height: 300px;
+    background-image: url(/Images/imgURL1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.título {
+    font-weight: 700;
+}
+
+.copy {
+    font-weight: 400;
+}
+
+.cta {
+    padding: 20px 30px;
+    display: inline-block;
+    background: #cea45c;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 10px;
+    color: beige;
+}
+
+/*Nuestros productos*/
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #b9340b;
+    font-size: 30px;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    height: 30px 0;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background: #cea45c;
+}
+
+.card-img {
+    width: 95%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+}
+
+.cards-text {
+    text-align: left;
+    margin-left: auto;
+    width: 90%;
+    padding-right: 25px;  
+}
+
+.card-list {
+    color: #000;
+    font-weight: 700;
+    margin: 25px 0 12px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-copy {
+    color:#000;
+    margin-bottom: 16px;
+}
+
+.card-btn {
+    display: block;
+    background: #b9340b;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90%;
+    color: beige;
+    font-weight: 700;
+    text-align: center;
+    padding: 12px 0;
+}
+
+/*Galería*/
+
+.gallery {
+    background: beige;
+}
+
+.contenedor-galería {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.img-galería {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/*Sobre Burkina*/
+
+
+/*Footer*/
+
+footer {
+    background-image: url(/Images/imgURL1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0.1px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.Social-Media {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.social-media-title {
+    font-size: 700;
+    display: inline-block;
+    text-align: center;
+}
+
+.social-media-icon {
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    color: #000;
+}
+
+.social-media-icon:hover {
+    background: #cea45c;
+    color: #000;
+}
+
+.social-media-icon i {
+    font-size: 30px;
+    line-height: 60px;
+}
+
